@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+/* HEADER STYLES */
+header{
+    background-color: darkslategray;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+}
+li a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: whitesmoke;
+}
+h2{
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+}
+p{
+    text-align: center;
+    padding: 10px;
+}
+.middle{
+    background-color: antiquewhite;
+    padding: 5px;
+}
+/* MAIN STYLE */
+main{
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+main img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px darkslateblue;
+}
+main h3{
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+}
+main p{
+    text-align: center;
+}
+/* SECTION STYLES */
+section{
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    margin: 20px;
+    
+}
+
+section img{
+    width: 500px;
+    height: 400px;
+
+}
+fieldset{
+    width: 300px;
+    height: auto;
+    flex: 2;
+    margin: 20px;
+    padding: 10px;
+    text-transform: capitalize;
+    border: none;
+}
+form{
+    margin-top: 40px;
+}
+input,textarea{
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    margin: 10px auto;
+    border-radius: 2px;
+    border: 1px solid grey;
+    text-transform: capitalize;
+}
+button{
+    text-transform: capitalize;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+}
